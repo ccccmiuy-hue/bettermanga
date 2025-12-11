@@ -4,11 +4,8 @@ import requests
 app = Flask(__name__)
 
 # URLs das APIs externas
-URL_ANIMES = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/animes.json"
-URL_EPISODIOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/episodios.json"
-URL_TEMPORADAS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/temporadas.json"
-URL_NOVOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/novos.json"
-URL_GENERO = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/genero.json"
+URL_MANGAS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/mangas.json"
+URL_CAPITULOS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/capitulos.json"
 
 
 def get_json_from_url(url):
@@ -20,33 +17,15 @@ def get_json_from_url(url):
         return {"erro": str(e)}
 
 
-@app.route("/Api/animes/", methods=["GET"])
+@app.route("/Api/mangas/", methods=["GET"])
 def api_animes():
-    data = get_json_from_url(URL_ANIMES)
+    data = get_json_from_url(URL_mangas)
     return jsonify(data)
 
 
-@app.route("/Api/genero/", methods=["GET"])
+@app.route("/Api/capitulos/", methods=["GET"])
 def api_genero():
-    data = get_json_from_url(URL_GENERO)
-    return jsonify(data)
-
-
-@app.route("/Api/episodios/", methods=["GET"])
-def api_episodios():
-    data = get_json_from_url(URL_EPISODIOS)
-    return jsonify(data)
-
-
-@app.route("/Api/temporadas/", methods=["GET"])
-def api_temporadas():
-    data = get_json_from_url(URL_TEMPORADAS)
-    return jsonify(data)
-
-
-@app.route("/Api/novos/", methods=["GET"])
-def api_novos():
-    data = get_json_from_url(URL_NOVOS)
+    data = get_json_from_url(URL_CAPITULOS)
     return jsonify(data)
 
 
