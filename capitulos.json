@@ -1,0 +1,36 @@
+[
+  {
+    "id": "272059-1-21",
+    "nome": "Deus do Cultivo",
+    "numero": 21,
+    "descricao": "Dragão segue os planos de Yan para se tornar um dos melhores.",
+    "duracao": "23",
+    "data_lancamento": "2025-08-24",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/rC2reWqjt79SRp2bY5ywcTFOgdO.jpg",
+    "temporada_id": "272059-1",
+    "legendado": "https://www.anroll.net/e/71RFBWiWWq",
+    "dublado": "https://www.anroll.net/e/jAyQVXLGP9",
+    "tmdb_id": "272059-1-21",
+    "data_criacao": "2025-08-24T00:00:00.000Z",
+    "data_atualizacao": "2025-09-02T01:11:46.137Z",
+    "comeco": "",
+    "final": ""
+  },
+  {
+    "id": "272059-1-22",
+    "nome": "O último sorriso",
+    "numero": 22,
+    "descricao": "Nice aparece no meio da luta de Smile e Dragão. Mas ele é amigo ou inimigo?",
+    "duracao": "23",
+    "data_lancamento": "2025-08-31",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/hUlJToVt5jrltLNm7UBls5CQH5q.jpg",
+    "temporada_id": "272059-1",
+    "legendado": "https://www.anroll.net/e/AjeJ1WC259",
+    "dublado": "https://www.anroll.net/e/EfY68B9pAV",
+    "tmdb_id": "272059-1-22",
+    "data_criacao": "2025-08-31T00:00:00.000Z",
+    "data_atualizacao": "2025-09-02T01:11:46.137Z",
+    "comeco": "",
+    "final": ""
+  }
+]
