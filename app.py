@@ -6,6 +6,9 @@ app = Flask(__name__)
 # URLs das APIs externas
 URL_MANGAS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/mangas.json"
 URL_CAPITULOS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/capitulos.json"
+URL_TEMPORADAS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/temporadas.json"
+URL_NOVOS = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/novos.json"
+URL_GENERO = "https://raw.githubusercontent.com/ccccmiuy-hue/bettermanga/refs/heads/main/genero.json"
 
 
 def get_json_from_url(url):
@@ -19,13 +22,31 @@ def get_json_from_url(url):
 
 @app.route("/Api/mangas/", methods=["GET"])
 def api_animes():
-    data = get_json_from_url(URL_mangas)
+    data = get_json_from_url(URL_MANGAS)
     return jsonify(data)
 
 
 @app.route("/Api/capitulos/", methods=["GET"])
 def api_genero():
     data = get_json_from_url(URL_CAPITULOS)
+    return jsonify(data)
+
+
+@app.route("/Api/episodios/", methods=["GET"])
+def api_episodios():
+    data = get_json_from_url(URL_EPISODIOS)
+    return jsonify(data)
+
+
+@app.route("/Api/temporadas/", methods=["GET"])
+def api_temporadas():
+    data = get_json_from_url(URL_TEMPORADAS)
+    return jsonify(data)
+
+
+@app.route("/Api/novos/", methods=["GET"])
+def api_novos():
+    data = get_json_from_url(URL_NOVOS)
     return jsonify(data)
 
 
