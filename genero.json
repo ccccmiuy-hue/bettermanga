@@ -1,0 +1,80 @@
+[
+  {
+     "debora": "genero",
+     "genero": "Ação",
+     "capa": "https://s3.tebi.io/categoria/acao.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Aventura",
+     "capa": "https://s3.tebi.io/categoria/aventura.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Comédia",
+     "capa": "https://s3.tebi.io/categoria/comedia.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Drama",
+     "capa": "https://s3.tebi.io/categoria/drama.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Fantasia",
+     "capa": "https://s3.tebi.io/categoria/fantacia.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Música",
+     "capa": "https://s3.tebi.io/categoria/musica.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Romance",
+     "capa": "https://s3.tebi.io/categoria/romance.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Ficção Científica",
+     "capa": "https://s3.tebi.io/categoria/sci.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Seinen",
+     "capa": "https://s3.tebi.io/categoria/seinen.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Shoujo",
+     "capa": "https://s3.tebi.io/categoria/shojo.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Shounen",
+     "capa": "https://s3.tebi.io/categoria/shonen.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Slice-of-Life",
+     "capa": "https://s3.tebi.io/categoria/18.jpg"
+  },
+  { 
+     "debora": "genero",
+     "genero": "Esportes",
+     "capa": "https://s3.tebi.io/categoria/sports.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Sobrenatural",
+     "capa": "https://s3.tebi.io/categoria/sbrenatural.jpg"
+  },
+  {
+     "debora": "genero",
+     "genero": "Suspense",
+     "capa": "https://s3.tebi.io/categoria/treiler.jpg"
+  }
+]
+
+
+
